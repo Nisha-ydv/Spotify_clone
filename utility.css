@@ -1,0 +1,45 @@
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+/* WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Scrollbar handle color */
+    border-radius: 6px; /* Round edges for the scrollbar handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color of the handle on hover */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin; /* Set scrollbar width */
+    scrollbar-color: #555 #2c2c2c; /* Handle color and track color */
+}
+
+/* For Edge and IE */
+body {
+    -ms-overflow-style: scrollbar; /* Enables scrollbar styling */
+}
